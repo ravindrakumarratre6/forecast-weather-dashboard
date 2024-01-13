@@ -1,0 +1,31 @@
+
+.searchbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchbar-container input {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 200px; /* Adjust the width as needed */
+  color: black;
+}
+
+.searchbar-container button {
+  padding: 15px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.searchbar-container button:hover{
+  background-color: #3498db;
+  color: black;
+}

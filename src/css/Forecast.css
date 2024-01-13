@@ -1,0 +1,42 @@
+/* Add this to your existing CSS file or create a new one if needed */
+
+.forecast {
+  text-align: center;
+  padding: 20px;
+  opacity: 0; /* Initially set the opacity to 0 */
+  animation: fadeIn 1s ease-in-out forwards; /* Apply the fadeIn animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.forecast h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.forecast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Add a media query for responsive styling */
+@media (min-width: 768px) {
+  .forecast {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .forecast h2 {
+    margin-bottom: 0;
+  }
+}
