@@ -1,3 +1,19 @@
+i have create follow api openweatherapi website and fetching data use this axois library and search funcnality any contry that contry information
+like tempcture many more info.and 5 day forecast info weather below in UI
+<img width="960" alt="image" src="https://github.com/ravindrakumarratre6/forecast-weather-dashboard/assets/108799850/156fb759-acd8-42ce-843f-4cebcc2d59e9">
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
